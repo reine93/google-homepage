@@ -24,7 +24,7 @@ nav {
 
 .maincontent {
     position: absolute;
-    top: 40%;
+    top: 27%;
     left: 40%;
 }
 
@@ -44,4 +44,77 @@ footer{
 
 .infolink {
     margin: 7px;
+}
+.mainsearch {
+    margin-top: 8%;
+}
+
+#srchbrst {
+    z-index: 2;
+    position: relative;
+    left: -52%;
+    border: solid 1px #dfe1e5;
+    width: 200%;
+    height: 44px;
+    border-radius: 24px;
+}
+
+#srchbrst:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+#searchbr {
+    position: absolute;
+    bottom: 5%;
+    left: 8%;
+    z-index: 3;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    height: 37px;
+    width: 80%;
+    font-size: 16px;
+}
+
+
+#srchbuttons{
+    margin-top: 10%;
+}
+
+.search-submit {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    padding: 0 16px;
+    font:400 13.333px Arial;
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.search-submit:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.search-submit:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
 }

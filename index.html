@@ -22,12 +22,16 @@
     <main>
         <div class = "maincontent">
             <div class = "upperpage">
-                <img src="" alt="Google logo" id = "mainlogo">
+                <img src="images/google-logo.png" alt="Google logo" id = "mainlogo">
             </div>
             <div class = "mainsearch">
-               <input type="text"><br>
-               <input type="submit" value="Google Search">
-               <input type="submit" value="I'm Feeling Lucky">
+                <div id ="srchbrst"> 
+               <input type="text" id ="searchbr"><br>
+                </div>
+                <div id= "srchbuttons"></div>
+               <input type="submit" value="Google Search" class="search-submit" onclick="location.href = 'https://www.google.com/search?q=now+this+is+podracing';"> 
+               <input type="submit" value="I'm Feeling Lucky" class="search-submit" onclick="location.href = 'https://www.google.com/doodles';">
+                </div>
             </div>
         </div>
     </main>
